@@ -6,6 +6,81 @@
     box-sizing: border-box;
 }
 
-.header {
-    color: pink;
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
+
+body > div {
+    padding: 2rem 10%;
+}
+
+.header,
+.hero {
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header .title,
+.hero .title {
+    color: #f9faf8;
+}
+
+.header .title {
+    font-size: 1.5rem;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.hero {
+    /* background-color: pink; */
+    display: flex;
+    gap: 2rem;
+}
+
+.hero .left,
+.hero .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.hero .title {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.hero .desc {
+    font-size: 1.5rem;
+    color: #e5e7eb;
+}
+
+.hero .right {
+    flex: 1;
+    background-color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+}
+
