@@ -13,7 +13,7 @@ body {
 }
 
 body > * {
-    padding: 4rem 15%;
+    padding: 3rem 15%;
     flex: 1;
 }
 
@@ -155,10 +155,6 @@ button {
     text-align: end;
 }
 
-.signup {
-    border: 1px solid red;
-}
-
 .signup .bg-blue {
     background-color: #3882f6;
     display: flex;
@@ -175,4 +171,10 @@ button {
 
 .signup .bg-blue .left .desc {
     font-size: 1.5rem;;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
 }
